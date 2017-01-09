@@ -1,0 +1,105 @@
+html {
+    height:100%;
+    background-image: linear-gradient(-165deg,#120256 50%,#3F0000 50%);
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+        } 
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+    margin-bottom: auto;
+}
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+h1{
+    color: black;
+    font-family: fantasy;
+    font-size: 4rem;
+    text-align: center;
+}
+h2{
+    color:black;
+    font-family: fantasy;
+    font-size: 2rem;
+}
+p    {
+    column-count: 2;
+    column-gap: normal;
+    column-rule-color: black;
+    column-rule-style: solid;
+    column-span: all;
+}
+.header{
+    word-break: break-all;
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 100.00%;
+   background-color: white;
+}
+.wrapper{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 100.00%;
+   background-color: white;
+}
+.left{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 50.00%;
+   background-color: white;
+   word-break: break-all;
+}
+.right{
+    word-break: break-all;
+   position: relative;
+   float: right;
+   right: 0.00%;
+   width: 50.00%;
+   background-color: white;
+}
+.footer{
+    word-break: break-all;
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 100.00%;
+   background-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+ }
+li {
+    float: left;
+ } 
+li a {
+    display: block; 
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+li a:hover {
+     background-color: #605a5a;
+ }
